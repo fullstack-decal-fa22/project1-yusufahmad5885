@@ -1,0 +1,25 @@
+*{
+    text-decoration: none;
+}
+
+.not-bold{
+    font-weight: normal;
+    tab-size: 2;
+}
+
+.right{
+    display: block;
+    float:right;
+    font-size: 30px;
+}
+
+
+.centered{
+    text-align: center;
+}
+
+.centered-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
