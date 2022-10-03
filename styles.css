@@ -1,25 +1,77 @@
 *{
     text-decoration: none;
+    font: "Fira Sans", sans-serif;
 }
-
+#about {
+    background-color: lightblue;
+}
+#home{
+    background-color: lightcyan;
+}
+#work{
+    background-color: lightcyan;
+}
+#contact{
+    background-color: lightblue;
+}
 .not-bold{
     font-weight: normal;
     tab-size: 2;
 }
-
 .right{
     display: block;
     float:right;
     font-size: 30px;
 }
-
-
 .centered{
     text-align: center;
 }
-
 .centered-pic{
-    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.centered:hover{
+    color: lightseagreen;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+}
+.grid-item {
+    background-color: white;
+    border: solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.margin-container {
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+/* For margin practice */
+.flag1 {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 0px;
+    padding: 10px;
+}
+.flag2 {
+    padding: 10px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+.flag {
+    margin-top: 1rem;
+    height: 200px;
+    width: 300px;
+    border-style: solid;
+    margin-bottom: 1rem;
+}
+#buttons{
+    justify-content: center;
+    height: 100px;
+    width: 150px;
 }
